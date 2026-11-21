@@ -1,0 +1,1559 @@
+# Copyright (C) 2026 LiveDesk
+# This file is distributed under the GPLv2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: LiveDesk Live Chat 1.2.0\n"
+"Report-Msgid-Bugs-To: https://example.com/support\n"
+"POT-Creation-Date: 2026-11-19T00:00:00+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Domain: livedesk\n"
+
+#: admin/views/agents.php:23
+msgid "Agents"
+msgstr ""
+
+#: admin/views/agents.php:24
+msgid "Agents use their existing WordPress accounts and can only access the chat inbox — not other admin areas."
+msgstr ""
+
+#: admin/views/agents.php:28
+msgid "Current agents"
+msgstr ""
+
+#: admin/views/agents.php:30
+msgid "No agents yet. Add a user below to share the inbox."
+msgstr ""
+
+#: admin/views/agents.php:35
+msgid "Agent"
+msgstr ""
+
+#: admin/views/agents.php:36
+msgid "Status"
+msgstr ""
+
+#: admin/views/agents.php:37
+msgid "Open conversations"
+msgstr ""
+
+#: admin/views/agents.php:38
+msgid "Actions"
+msgstr ""
+
+#: admin/views/agents.php:51
+msgid "Enabled"
+msgstr ""
+
+#: admin/views/agents.php:51
+msgid "Disabled"
+msgstr ""
+
+#: admin/views/agents.php:54
+msgid "Available"
+msgstr ""
+
+#: admin/views/agents.php:54
+msgid "Away"
+msgstr ""
+
+#: admin/views/agents.php:59
+msgid "Disable"
+msgstr ""
+
+#: admin/views/agents.php:59
+msgid "Enable"
+msgstr ""
+
+#: admin/views/agents.php:61
+msgid "Remove"
+msgstr ""
+
+#: admin/views/agents.php:71
+msgid "Add an agent"
+msgstr ""
+
+#: admin/views/agents.php:72
+msgid "Select any existing WordPress user. They will receive the LiveDesk agent capability."
+msgstr ""
+
+#: admin/views/agents.php:74
+msgid "Every eligible user is already an agent. Create a WordPress user first if you need one."
+msgstr ""
+
+#: admin/views/agents.php:84
+msgid "Add agent"
+msgstr ""
+
+#: admin/views/agents.php:86
+msgid "Tip: use the Users → Add New screen to invite a colleague, then add them here. Set their role to Subscriber and add them as a LiveDesk agent — they will only see the chat inbox."
+msgstr ""
+
+#: admin/views/agents.php:91
+msgid "Assignment rules"
+msgstr ""
+
+#: admin/views/agents.php:96
+msgid "Current mode: %1$s · strategy: %2$s"
+msgstr ""
+
+#: admin/views/agents.php:97
+msgid "Automatic"
+msgstr ""
+
+#: admin/views/agents.php:97
+msgid "Manual"
+msgstr ""
+
+#: admin/views/agents.php:101
+msgid "Change"
+msgstr ""
+
+#: admin/views/agents.php:103
+msgid "Automatic assignment only assigns to agents that are enabled and marked Available. Admins can always reply without assignment."
+msgstr ""
+
+#: admin/views/canned.php:15
+msgid "Canned responses"
+msgstr ""
+
+#: admin/views/canned.php:16
+msgid "Saved replies agents can drop into the composer and edit before sending."
+msgstr ""
+
+#: admin/views/canned.php:20
+msgid "Saved replies"
+msgstr ""
+
+#: admin/views/canned.php:22
+msgid "No canned responses yet. Create your first one on the right."
+msgstr ""
+
+#: admin/views/canned.php:27
+msgid "Title"
+msgstr ""
+
+#: admin/views/canned.php:28
+msgid "Content"
+msgstr ""
+
+#: admin/views/canned.php:29
+msgid "Updated"
+msgstr ""
+
+#: admin/views/canned.php:43
+msgid "Edit"
+msgstr ""
+
+#: admin/views/canned.php:44
+msgid "Delete"
+msgstr ""
+
+#: admin/views/canned.php:54
+msgid "New canned response"
+msgstr ""
+
+#: admin/views/canned.php:58
+msgid "e.g. Refund policy"
+msgstr ""
+
+#: admin/views/canned.php:62
+msgid "The reply text…"
+msgstr ""
+
+#: admin/views/canned.php:65
+msgid "Save response"
+msgstr ""
+
+#: admin/views/canned.php:66
+msgid "Cancel"
+msgstr ""
+
+#: admin/views/dashboard.php:20
+msgid "Live Chat"
+msgstr ""
+
+#: admin/views/dashboard.php:22
+msgid "Chat is online"
+msgstr ""
+
+#: admin/views/dashboard.php:22
+msgid "Chat is offline"
+msgstr ""
+
+#: admin/views/dashboard.php:25
+msgid "Real-time conversations from your website visitors."
+msgstr ""
+
+#: admin/views/dashboard.php:30
+msgid "My availability"
+msgstr ""
+
+#: admin/views/dashboard.php:31
+msgid "Set yourself Away when you cannot respond. Availability affects the online indicator and automatic assignment."
+msgstr ""
+
+#: admin/views/dashboard.php:43
+msgid "Active"
+msgstr ""
+
+#: admin/views/dashboard.php:47
+msgid "Waiting"
+msgstr ""
+
+#: admin/views/dashboard.php:51
+msgid "Archived"
+msgstr ""
+
+#: admin/views/dashboard.php:55
+msgid "Unassigned"
+msgstr ""
+
+#: admin/views/dashboard.php:59
+msgid "Mine"
+msgstr ""
+
+#: admin/views/dashboard.php:63
+msgid "Unread messages"
+msgstr ""
+
+#: admin/views/dashboard.php:70
+msgid "Recent conversations"
+msgstr ""
+
+#: admin/views/dashboard.php:71
+msgid "Open inbox"
+msgstr ""
+
+#: admin/views/dashboard.php:74
+msgid "No conversations yet. When a visitor writes through the widget it appears here instantly."
+msgstr ""
+
+#: admin/views/dashboard.php:82
+msgid "Unread"
+msgstr ""
+
+#: admin/views/dashboard.php:96
+msgid "Team"
+msgstr ""
+
+#: admin/views/dashboard.php:98
+msgid "Manage"
+msgstr ""
+
+#: admin/views/dashboard.php:103
+msgid "No agents configured yet. Admins can reply to every conversation; add agents to share the workload."
+msgstr ""
+
+#: admin/views/dashboard.php:114
+msgid "disabled"
+msgstr ""
+
+#: admin/views/dashboard.php:116
+msgid "available"
+msgstr ""
+
+#: admin/views/dashboard.php:118
+msgid "away"
+msgstr ""
+
+#: admin/views/dashboard.php:127
+msgid "Quick setup"
+msgstr ""
+
+#: admin/views/dashboard.php:129
+msgid "The widget is live on your site footer — no theme edits required."
+msgstr ""
+
+#: admin/views/dashboard.php:130
+msgid "Add agents under Live Chat → Agents (existing WordPress users)."
+msgstr ""
+
+#: admin/views/dashboard.php:131
+msgid "Set business hours and offline behaviour under Settings."
+msgstr ""
+
+#: admin/views/dashboard.php:136
+msgid "Prefer an inline button? Use the shortcode %s."
+msgstr ""
+
+#: admin/views/inbox.php:50
+msgid "All"
+msgstr ""
+
+#: admin/views/inbox.php:60
+msgid "Inbox"
+msgstr ""
+
+#: admin/views/inbox.php:71
+msgid "Search name, email or message…"
+msgstr ""
+
+#: admin/views/inbox.php:73
+msgid "Any agent"
+msgstr ""
+
+#: admin/views/inbox.php:74
+msgid "Assigned to me"
+msgstr ""
+
+#: admin/views/inbox.php:80
+msgid "From"
+msgstr ""
+
+#: admin/views/inbox.php:81
+msgid "To"
+msgstr ""
+
+#: admin/views/inbox.php:82
+msgid "Filter"
+msgstr ""
+
+#: admin/views/inbox.php:84
+msgid "Reset"
+msgstr ""
+
+#: admin/views/inbox.php:110
+msgid "Conversations"
+msgstr ""
+
+#: admin/views/inbox.php:112
+msgid "No conversations match these filters."
+msgstr ""
+
+#: admin/views/inbox.php:177
+msgid "Conversation"
+msgstr ""
+
+#: admin/views/inbox.php:181
+msgid "Select a conversation to start replying."
+msgstr ""
+
+#: admin/views/inbox.php:200
+msgid "Conversation status"
+msgstr ""
+
+#: admin/views/inbox.php:206
+msgid "Assign agent"
+msgstr ""
+
+#: admin/views/inbox.php:215
+msgid "Export PDF"
+msgstr ""
+
+#: admin/views/inbox.php:219
+msgid "Delete conversation"
+msgstr ""
+
+#: admin/views/inbox.php:258
+msgid "Visitor is typing…"
+msgstr ""
+
+#: admin/views/inbox.php:265
+msgid "Enter to send · Shift+Enter for a new line"
+msgstr ""
+
+#: admin/views/inbox.php:266
+msgid "Toggle sound"
+msgstr ""
+
+#: admin/views/inbox.php:268
+msgid "Write a reply…"
+msgstr ""
+
+#: admin/views/inbox.php:270
+msgid "Send reply"
+msgstr ""
+
+#: admin/views/inbox.php:271
+msgid "Archive"
+msgstr ""
+
+#: admin/views/inbox.php:279
+msgid "Visitor"
+msgstr ""
+
+#: admin/views/inbox.php:281
+msgid "Name"
+msgstr ""
+
+#: admin/views/inbox.php:282
+msgid "Email"
+msgstr ""
+
+#: admin/views/inbox.php:283
+msgid "Device"
+msgstr ""
+
+#: admin/views/inbox.php:284
+msgid "Started chat on"
+msgstr ""
+
+#: admin/views/inbox.php:285
+msgid "Current page"
+msgstr ""
+
+#: admin/views/inbox.php:286
+msgid "First seen"
+msgstr ""
+
+#: admin/views/inbox.php:287
+msgid "Last activity"
+msgstr ""
+
+#: admin/views/inbox.php:292
+msgid "Internal notes"
+msgstr ""
+
+#: admin/views/inbox.php:292
+msgid "private"
+msgstr ""
+
+#: admin/views/inbox.php:300
+msgid "Delete note"
+msgstr ""
+
+#: admin/views/inbox.php:307
+msgid "Add an internal note…"
+msgstr ""
+
+#: admin/views/inbox.php:308
+msgid "Add note"
+msgstr ""
+
+#: admin/views/inbox.php:313
+msgid "Assignment history"
+msgstr ""
+
+#: admin/views/settings.php:15
+msgid "Monday"
+msgstr ""
+
+#: admin/views/settings.php:16
+msgid "Tuesday"
+msgstr ""
+
+#: admin/views/settings.php:17
+msgid "Wednesday"
+msgstr ""
+
+#: admin/views/settings.php:18
+msgid "Thursday"
+msgstr ""
+
+#: admin/views/settings.php:19
+msgid "Friday"
+msgstr ""
+
+#: admin/views/settings.php:20
+msgid "Saturday"
+msgstr ""
+
+#: admin/views/settings.php:21
+msgid "Sunday"
+msgstr ""
+
+#: admin/views/settings.php:25
+msgid "General"
+msgstr ""
+
+#: admin/views/settings.php:26
+msgid "Visibility"
+msgstr ""
+
+#: admin/views/settings.php:27
+msgid "Business hours"
+msgstr ""
+
+#: admin/views/settings.php:28
+msgid "Agents & assignment"
+msgstr ""
+
+#: admin/views/settings.php:29
+msgid "Offline behaviour"
+msgstr ""
+
+#: admin/views/settings.php:30
+msgid "Notifications"
+msgstr ""
+
+#: admin/views/settings.php:31
+msgid "Attachments"
+msgstr ""
+
+#: admin/views/settings.php:32
+msgid "Security & spam"
+msgstr ""
+
+#: admin/views/settings.php:33
+msgid "Retention & privacy"
+msgstr ""
+
+#: admin/views/settings.php:34
+msgid "Real-time"
+msgstr ""
+
+#: admin/views/settings.php:38
+msgid "Settings"
+msgstr ""
+
+#: admin/views/settings.php:55
+msgid "Widget appearance"
+msgstr ""
+
+#: admin/views/settings.php:57
+msgid "Widget title"
+msgstr ""
+
+#: admin/views/settings.php:61
+msgid "Welcome message"
+msgstr ""
+
+#: admin/views/settings.php:65
+msgid "Logo URL (optional)"
+msgstr ""
+
+#: admin/views/settings.php:67
+msgid "Use the media library URL. Leave empty to show an icon."
+msgstr ""
+
+#: admin/views/settings.php:70
+msgid "Launcher label (inline shortcode)"
+msgstr ""
+
+#: admin/views/settings.php:74
+msgid "Launcher position"
+msgstr ""
+
+#: admin/views/settings.php:76
+msgid "Bottom right"
+msgstr ""
+
+#: admin/views/settings.php:77
+msgid "Bottom left"
+msgstr ""
+
+#: admin/views/settings.php:82
+msgid "Primary color"
+msgstr ""
+
+#: admin/views/settings.php:86
+msgid "Window width (px)"
+msgstr ""
+
+#: admin/views/settings.php:90
+msgid "Window height (px)"
+msgstr ""
+
+#: admin/views/settings.php:95
+msgid "Agent display name"
+msgstr ""
+
+#: admin/views/settings.php:97
+msgid "First name"
+msgstr ""
+
+#: admin/views/settings.php:98
+msgid "Full display name"
+msgstr ""
+
+#: admin/views/settings.php:103
+msgid "Visitor notifications sound on by default"
+msgstr ""
+
+#: admin/views/settings.php:105
+msgid "Inline placement: use the shortcode [livedesk_chat] on any page or post."
+msgstr ""
+
+#: admin/views/settings.php:110
+msgid "Where the widget appears"
+msgstr ""
+
+#: admin/views/settings.php:112
+msgid "Visibility mode"
+msgstr ""
+
+#: admin/views/settings.php:114
+msgid "Everywhere"
+msgstr ""
+
+#: admin/views/settings.php:115
+msgid "Only on selected pages / post types"
+msgstr ""
+
+#: admin/views/settings.php:116
+msgid "Everywhere except selected pages / post types"
+msgstr ""
+
+#: admin/views/settings.php:120
+msgid "Page / post IDs (comma-separated)"
+msgstr ""
+
+#: admin/views/settings.php:124
+msgid "Post types"
+msgstr ""
+
+#: admin/views/settings.php:132
+msgid "Hold Ctrl/Cmd to select several."
+msgstr ""
+
+#: admin/views/settings.php:137
+msgid "Hide widget on WooCommerce cart and checkout pages"
+msgstr ""
+
+#: admin/views/settings.php:140
+msgid "Widget assets are not loaded at all on pages where the widget is hidden."
+msgstr ""
+
+#: admin/views/settings.php:148
+msgid "Enable business hours for the online indicator"
+msgstr ""
+
+#: admin/views/settings.php:154
+msgid "Current site timezone: %s"
+msgstr ""
+
+#: admin/views/settings.php:162
+msgid "Day"
+msgstr ""
+
+#: admin/views/settings.php:163
+msgid "Open"
+msgstr ""
+
+#: admin/views/settings.php:181
+msgid "Holidays / special closures"
+msgstr ""
+
+#: admin/views/settings.php:183
+msgid "One date per line: YYYY-MM-DD (optionally followed by | Label)."
+msgstr ""
+
+#: admin/views/settings.php:186
+msgid "Manual override"
+msgstr ""
+
+#: admin/views/settings.php:188
+msgid "Automatic (hours + available agents)"
+msgstr ""
+
+#: admin/views/settings.php:189
+msgid "Force online"
+msgstr ""
+
+#: admin/views/settings.php:190
+msgid "Force offline"
+msgstr ""
+
+#: admin/views/settings.php:193
+msgid "\"Online\" requires both the schedule window and at least one agent marked Available. Being logged into WordPress is not enough."
+msgstr ""
+
+#: admin/views/settings.php:198
+msgid "Assignment"
+msgstr ""
+
+#: admin/views/settings.php:200
+msgid "Mode"
+msgstr ""
+
+#: admin/views/settings.php:207
+msgid "Automatic strategy"
+msgstr ""
+
+#: admin/views/settings.php:209
+msgid "Round robin"
+msgstr ""
+
+#: admin/views/settings.php:210
+msgid "Least busy"
+msgstr ""
+
+#: admin/views/settings.php:215
+msgid "Agents can see unassigned conversations"
+msgstr ""
+
+#: admin/views/settings.php:217
+msgid "Admins always see and reply to every conversation. Agents only see their own assignments (and unassigned when enabled)."
+msgstr ""
+
+#: admin/views/settings.php:222
+msgid "When chat is offline"
+msgstr ""
+
+#: admin/views/settings.php:224
+msgid "Behaviour"
+msgstr ""
+
+#: admin/views/settings.php:226
+msgid "Normal chat (messages are queued)"
+msgstr ""
+
+#: admin/views/settings.php:227
+msgid "Offline contact form"
+msgstr ""
+
+#: admin/views/settings.php:231
+msgid "Offline heading"
+msgstr ""
+
+#: admin/views/settings.php:235
+msgid "Offline message"
+msgstr ""
+
+#: admin/views/settings.php:239
+msgid "Success message (contact form)"
+msgstr ""
+
+#: admin/views/settings.php:242
+msgid "Both modes create conversations in the same inbox — nothing is lost when you are away."
+msgstr ""
+
+#: admin/views/settings.php:247
+msgid "Email notifications"
+msgstr ""
+
+#: admin/views/settings.php:249
+msgid "Admin recipients (comma-separated)"
+msgstr ""
+
+#: admin/views/settings.php:251
+msgid "Leave empty to use the site admin email. Emails only send on new conversations and reopens — never on every visitor message."
+msgstr ""
+
+#: admin/views/settings.php:255
+msgid "Email admins when a new conversation starts"
+msgstr ""
+
+#: admin/views/settings.php:259
+msgid "Email admins when an archived conversation is reopened"
+msgstr ""
+
+#: admin/views/settings.php:263
+msgid "Email the agent when a conversation is auto-assigned"
+msgstr ""
+
+#: admin/views/settings.php:265
+msgid "Agent alerts"
+msgstr ""
+
+#: admin/views/settings.php:268
+msgid "Play a sound for new visitor messages"
+msgstr ""
+
+#: admin/views/settings.php:272
+msgid "Allow browser desktop notifications (agents can grant permission)"
+msgstr ""
+
+#: admin/views/settings.php:274
+msgid "Send test email"
+msgstr ""
+
+#: admin/views/settings.php:280
+msgid "File attachments"
+msgstr ""
+
+#: admin/views/settings.php:283
+msgid "Allow visitors and agents to send attachments"
+msgstr ""
+
+#: admin/views/settings.php:286
+msgid "Maximum file size (MB)"
+msgstr ""
+
+#: admin/views/settings.php:293
+msgid "Your server currently allows uploads up to %s."
+msgstr ""
+
+#: admin/views/settings.php:300
+msgid "Allowed extensions"
+msgstr ""
+
+#: admin/views/settings.php:302
+msgid "Comma-separated. Executable and script types are always rejected."
+msgstr ""
+
+#: admin/views/settings.php:308
+msgid "Spam protection"
+msgstr ""
+
+#: admin/views/settings.php:310
+msgid "Message rate limit (per minute, per visitor)"
+msgstr ""
+
+#: admin/views/settings.php:314
+msgid "New session limit (per hour, per IP)"
+msgstr ""
+
+#: admin/views/settings.php:319
+msgid "Enable honeypot field"
+msgstr ""
+
+#: admin/views/settings.php:322
+msgid "CAPTCHA provider"
+msgstr ""
+
+#: admin/views/settings.php:324
+msgid "None"
+msgstr ""
+
+#: admin/views/settings.php:332
+msgid "Site key"
+msgstr ""
+
+#: admin/views/settings.php:336
+msgid "Secret key"
+msgstr ""
+
+#: admin/views/settings.php:342
+msgid "Lock identified chats to their email address"
+msgstr ""
+
+#: admin/views/settings.php:344
+msgid "Visitor sessions are secured with 256-bit random tokens; only hashes are stored. CAPTCHA tokens are verified server-side against the provider."
+msgstr ""
+
+#: admin/views/settings.php:349
+msgid "Retention"
+msgstr ""
+
+#: admin/views/settings.php:352
+msgid "Automatically delete archived conversations"
+msgstr ""
+
+#: admin/views/settings.php:355
+msgid "Delete archived conversations after (days)"
+msgstr ""
+
+#: admin/views/settings.php:357
+msgid "Default: 180 days (6 months). Active conversations are never auto-deleted."
+msgstr ""
+
+#: admin/views/settings.php:360
+msgid "Warn admins before deletion (days before)"
+msgstr ""
+
+#: admin/views/settings.php:365
+msgid "Also delete attachment files when conversations are deleted"
+msgstr ""
+
+#: admin/views/settings.php:367
+msgid "Privacy"
+msgstr ""
+
+#: admin/views/settings.php:369
+msgid "Consent note shown in the widget (optional)"
+msgstr ""
+
+#: admin/views/settings.php:372
+msgid "Conversation data is exported via each conversation's PDF export and can be permanently deleted from the inbox. Visitor chat identifiers expire automatically after 120 days of inactivity."
+msgstr ""
+
+#: admin/views/settings.php:377
+msgid "Polling intervals"
+msgstr ""
+
+#: admin/views/settings.php:379
+msgid "Active chat (seconds)"
+msgstr ""
+
+#: admin/views/settings.php:381
+msgid "Recommended: 3. Lower is faster but uses more server resources."
+msgstr ""
+
+#: admin/views/settings.php:384
+msgid "Waiting for agent (seconds)"
+msgstr ""
+
+#: admin/views/settings.php:388
+msgid "Idle / background tab (seconds)"
+msgstr ""
+
+#: admin/views/settings.php:390
+msgid "Used when the tab is hidden or the widget is closed. Saves shared-hosting resources."
+msgstr ""
+
+#: admin/views/settings.php:393
+msgid "Messages per page"
+msgstr ""
+
+#: admin/views/settings.php:398
+msgid "Enable typing indicators"
+msgstr ""
+
+#: admin/views/settings.php:400
+msgid "LiveDesk uses AJAX polling so it works on any shared host. The transport is isolated in the polling layer so a WebSocket/SSE bridge can be added later without changing the data model."
+msgstr ""
+
+#: admin/views/settings.php:404
+msgid "Save settings"
+msgstr ""
+
+#: admin/views/settings.php:405
+msgid "All scheduled tasks (retention cleanup) run via WP-Cron on an hourly schedule."
+msgstr ""
+
+#: includes/class-activator.php:65
+msgid "Greeting"
+msgstr ""
+
+#: includes/class-activator.php:66
+msgid "Hi! Thanks for reaching out. How can we help you today?"
+msgstr ""
+
+#: includes/class-activator.php:75
+msgid "Checking for you"
+msgstr ""
+
+#: includes/class-activator.php:76
+msgid "Thanks for your patience — I am checking on this and will get back to you shortly."
+msgstr ""
+
+#: includes/class-admin-controller.php:53
+msgid "Dashboard"
+msgstr ""
+
+#: includes/class-admin-controller.php:58
+msgid "Canned Responses"
+msgstr ""
+
+#: includes/class-admin-controller.php:144
+msgid "Permanently delete this conversation? This cannot be undone. Type DELETE to confirm."
+msgstr ""
+
+#: includes/class-admin-controller.php:145
+msgid "Remove this agent? They will lose access to the chat inbox."
+msgstr ""
+
+#: includes/class-admin-controller.php:146
+msgid "Sending…"
+msgstr ""
+
+#: includes/class-admin-controller.php:147
+msgid "Sent"
+msgstr ""
+
+#: includes/class-admin-controller.php:148
+msgid "Something went wrong. Please try again."
+msgstr ""
+
+#: includes/class-admin-controller.php:149
+msgid "Saved"
+msgstr ""
+
+#: includes/class-admin-controller.php:150
+msgid "New message from"
+msgstr ""
+
+#: includes/class-admin-controller.php:151
+msgid "New conversation from"
+msgstr ""
+
+#: includes/class-admin-controller.php:152
+msgid "Note added"
+msgstr ""
+
+#: includes/class-admin-controller.php:154
+msgid "You are set to Away"
+msgstr ""
+
+#: includes/class-admin-controller.php:155
+msgid "You are Available"
+msgstr ""
+
+#: includes/class-admin-controller.php:156
+msgid "Load more"
+msgstr ""
+
+#: includes/class-admin-controller.php:157
+msgid "No more conversations"
+msgstr ""
+
+#: includes/class-admin-controller.php:158
+msgid "Choose file"
+msgstr ""
+
+#: includes/class-admin-controller.php:159
+msgid "Read more"
+msgstr ""
+
+#: includes/class-admin-controller.php:176
+msgid "LiveDesk is ready."
+msgstr ""
+
+#: includes/class-admin-controller.php:177
+msgid "Chat conversations will land in your Live Chat inbox. Add support agents so the widget reports your team as online."
+msgstr ""
+
+#: includes/class-admin-controller.php:179
+msgid "Manage agents →"
+msgstr ""
+
+#: includes/class-admin-controller.php:204
+msgid "You do not have permission to access this page."
+msgstr ""
+
+#: includes/class-admin-controller.php:284
+msgid "Conversation not found."
+msgstr ""
+
+#: includes/class-admin-controller.php:287
+msgid "You do not have permission to export this conversation."
+msgstr ""
+
+#: includes/class-agent-manager.php:94
+msgid "User not found."
+msgstr ""
+
+#: includes/class-agent-manager.php:97
+msgid "This user cannot be used as an agent."
+msgstr ""
+
+#: includes/class-ajax-controller.php:53
+msgid "You are not allowed to do this."
+msgstr ""
+
+#: includes/class-ajax-controller.php:56
+msgid "Only administrators can do this."
+msgstr ""
+
+#: includes/class-ajax-controller.php:93
+msgid "You are not allowed to manage this conversation."
+msgstr ""
+
+#: includes/class-ajax-controller.php:131
+msgid "Invalid status."
+msgstr ""
+
+#: includes/class-ajax-controller.php:150
+msgid "Type DELETE to confirm permanent deletion."
+msgstr ""
+
+#: includes/class-ajax-controller.php:154
+msgid "The conversation could not be deleted."
+msgstr ""
+
+#: includes/class-ajax-controller.php:181
+msgid "Invalid availability value."
+msgstr ""
+
+#: includes/class-ajax-controller.php:184
+msgid "You are not an active agent."
+msgstr ""
+
+#: includes/class-ajax-controller.php:200
+msgid "Agent not found."
+msgstr ""
+
+#: includes/class-ajax-controller.php:230
+msgid "You cannot remove yourself."
+msgstr ""
+
+#: includes/class-ajax-controller.php:287
+msgid "This is a test notification from LiveDesk Live Chat. Email delivery works."
+msgstr ""
+
+#: includes/class-ajax-controller.php:289
+msgid "[Live Chat] Test notification"
+msgstr ""
+
+#: includes/class-ajax-controller.php:291
+msgid "The test email could not be sent. Check your mail configuration."
+msgstr ""
+
+#: includes/class-assignment-manager.php:36
+msgid "That user is not a LiveDesk agent."
+msgstr ""
+
+#: includes/class-attachment-manager.php:147
+msgid "Attachments are disabled."
+msgstr ""
+
+#: includes/class-attachment-manager.php:150
+msgid "No file was received."
+msgstr ""
+
+#: includes/class-attachment-manager.php:156
+msgid "Invalid upload."
+msgstr ""
+
+#: includes/class-attachment-manager.php:163
+msgid "The file is too large. Maximum size is %d MB."
+msgstr ""
+
+#: includes/class-attachment-manager.php:173
+msgid "This file type is not allowed."
+msgstr ""
+
+#: includes/class-attachment-manager.php:196
+msgid "The file content does not match its type."
+msgstr ""
+
+#: includes/class-attachment-manager.php:205
+msgid "Could not prepare the storage folder."
+msgstr ""
+
+#: includes/class-attachment-manager.php:210
+msgid "Could not save the file."
+msgstr ""
+
+#: includes/class-attachment-manager.php:232
+msgid "Could not save the attachment record."
+msgstr ""
+
+#: includes/class-attachment-manager.php:245
+msgid "The file exceeds the server upload limit."
+msgstr ""
+
+#: includes/class-attachment-manager.php:246
+msgid "The file is too large."
+msgstr ""
+
+#: includes/class-attachment-manager.php:247
+msgid "The file was only partially uploaded. Please retry."
+msgstr ""
+
+#: includes/class-attachment-manager.php:248
+msgid "No file was uploaded."
+msgstr ""
+
+#: includes/class-attachment-manager.php:249
+msgid "Server misconfiguration: no temp folder."
+msgstr ""
+
+#: includes/class-attachment-manager.php:250
+msgid "Server could not write the file."
+msgstr ""
+
+#: includes/class-attachment-manager.php:252
+msgid "Upload failed."
+msgstr ""
+
+#: includes/class-canned-responses.php:55
+msgid "Both a title and content are required."
+msgstr ""
+
+#: includes/class-canned-responses.php:68
+msgid "The response could not be saved."
+msgstr ""
+
+#: includes/class-conversation-manager.php:117
+msgid "Could not start the chat. Please try again."
+msgstr ""
+
+#: includes/class-conversation-manager.php:184
+msgid "Invalid conversation status."
+msgstr ""
+
+#: includes/class-frontend-widget.php:131
+msgid "Online now"
+msgstr ""
+
+#: includes/class-frontend-widget.php:132
+msgid "Offline — leave a message"
+msgstr ""
+
+#: includes/class-frontend-widget.php:133
+msgid "Send"
+msgstr ""
+
+#: includes/class-frontend-widget.php:134
+msgid "Your name"
+msgstr ""
+
+#: includes/class-frontend-widget.php:135
+msgid "Your email"
+msgstr ""
+
+#: includes/class-frontend-widget.php:136
+msgid "Start chat"
+msgstr ""
+
+#: includes/class-frontend-widget.php:137
+msgid "Type your message…"
+msgstr ""
+
+#: includes/class-frontend-widget.php:139
+msgid "Attach a file"
+msgstr ""
+
+#: includes/class-frontend-widget.php:140
+msgid "is typing…"
+msgstr ""
+
+#: includes/class-frontend-widget.php:141
+msgid "Support is typing…"
+msgstr ""
+
+#: includes/class-frontend-widget.php:142
+msgid "You"
+msgstr ""
+
+#: includes/class-frontend-widget.php:143
+msgid "Reconnecting…"
+msgstr ""
+
+#: includes/class-frontend-widget.php:144
+msgid "Connected"
+msgstr ""
+
+#: includes/class-frontend-widget.php:146
+msgid "Please enter your name and a valid email."
+msgstr ""
+
+#: includes/class-frontend-widget.php:147
+msgid "Load earlier messages"
+msgstr ""
+
+#: includes/class-frontend-widget.php:148
+msgid "Hi %s, how can we help?"
+msgstr ""
+
+#: includes/class-frontend-widget.php:149
+msgid "Sound on"
+msgstr ""
+
+#: includes/class-frontend-widget.php:150
+msgid "Sound off"
+msgstr ""
+
+#: includes/class-frontend-widget.php:151
+msgid "Close chat"
+msgstr ""
+
+#: includes/class-frontend-widget.php:152
+msgid "Your chat is stored so our team can help you."
+msgstr ""
+
+#: includes/class-frontend-widget.php:183
+msgid "Chat with us"
+msgstr ""
+
+#: includes/class-message-manager.php:45
+msgid "Please type a message first."
+msgstr ""
+
+#: includes/class-message-manager.php:82
+msgid "Your message could not be sent. Please try again."
+msgstr ""
+
+#: includes/class-message-manager.php:205
+msgid "Support"
+msgstr ""
+
+#: includes/class-notes-manager.php:32
+msgid "Please write a note first."
+msgstr ""
+
+#: includes/class-notes-manager.php:46
+msgid "The note could not be saved."
+msgstr ""
+
+#: includes/class-notification-manager.php:84
+msgid "[Live Chat] Conversation reopened by %s"
+msgstr ""
+
+#: includes/class-notification-manager.php:89
+msgid "[Live Chat] New conversation from %s"
+msgstr ""
+
+#: includes/class-notification-manager.php:94
+msgid "A visitor started a conversation on your site."
+msgstr ""
+
+#: includes/class-notification-manager.php:99
+msgid "Message"
+msgstr ""
+
+#: includes/class-notification-manager.php:102
+msgid "Open conversation"
+msgstr ""
+
+#: includes/class-notification-manager.php:126
+msgid "[Live Chat] Conversation assigned to you: %s"
+msgstr ""
+
+#: includes/class-notification-manager.php:129
+msgid "A conversation has been assigned to you."
+msgstr ""
+
+#: includes/class-notification-manager.php:147
+msgid "[Live Chat] %d archived conversations will be deleted soon"
+msgstr ""
+
+#: includes/class-notification-manager.php:150
+msgid "The following archived conversations are nearing the end of your retention period and will be permanently deleted:"
+msgstr ""
+
+#: includes/class-notification-manager.php:154
+msgid "Open the Live Chat inbox to review them."
+msgstr ""
+
+#: includes/class-pdf-exporter.php:65
+msgid "Conversation Transcript"
+msgstr ""
+
+#: includes/class-pdf-exporter.php:70
+msgid "Reference"
+msgstr ""
+
+#: includes/class-pdf-exporter.php:72
+msgid "Started"
+msgstr ""
+
+#: includes/class-pdf-exporter.php:76
+msgid "Exported"
+msgstr ""
+
+#: includes/class-pdf-exporter.php:97
+msgid "Attachment"
+msgstr ""
+
+#: includes/class-pdf-exporter.php:113
+msgid "Generated by %s"
+msgstr ""
+
+#: includes/class-rest-controller.php:189
+msgid "Your request could not be processed."
+msgstr ""
+
+#: includes/class-rest-controller.php:196
+msgid "You are sending requests too quickly. Please wait a moment."
+msgstr ""
+
+#: includes/class-rest-controller.php:375
+msgid "This chat is already linked to an email address."
+msgstr ""
+
+#: includes/class-rest-controller.php:666
+msgid "File not found."
+msgstr ""
+
+#: includes/class-rest-controller.php:691
+msgid "You are not allowed to download this file."
+msgstr ""
+
+#: includes/class-rest-controller.php:719
+msgid "You are not allowed to view this conversation."
+msgstr ""
+
+#: includes/class-rest-controller.php:761
+msgid "Your session expired. Please reload the page."
+msgstr ""
+
+#: includes/class-rest-controller.php:774
+msgid "You are not allowed to reply to this conversation."
+msgstr ""
+
+#: includes/class-rest-controller.php:830
+msgid "You are not allowed to add notes to this conversation."
+msgstr ""
+
+#: includes/class-rest-controller.php:865
+msgid "Not allowed."
+msgstr ""
+
+#: includes/class-security.php:109
+msgid "Please enter your name (2–120 characters)."
+msgstr ""
+
+#: includes/class-security.php:123
+msgid "Please enter a valid email address."
+msgstr ""
+
+#: includes/class-security.php:160
+msgid "Please complete the spam check."
+msgstr ""
+
+#: includes/class-security.php:176
+msgid "Could not verify the spam check. Please try again."
+msgstr ""
+
+#: includes/class-security.php:180
+msgid "Spam check failed. Please try again."
+msgstr ""
+
+#: includes/class-security.php:205
+msgid "This chat session is no longer valid."
+msgstr ""
+
+#: includes/class-security.php:216
+msgid "This chat is no longer available."
+msgstr ""
+
+#: includes/class-security.php:221
+msgid "No conversation found."
+msgstr ""
+
+#: includes/class-security.php:237
+msgid "You are not allowed to access live chat."
+msgstr ""
+
+#: includes/class-security.php:249
+msgid "You are not allowed to perform this action."
+msgstr ""
+
+#: includes/class-settings-manager.php:38
+msgid "Hi there! 👋 Send us a message and our team will get back to you as soon as possible."
+msgstr ""
+
+#: includes/class-settings-manager.php:78
+msgid "We are currently offline"
+msgstr ""
+
+#: includes/class-settings-manager.php:79
+msgid "Leave us a message and we will reply as soon as we are back."
+msgstr ""
+
+#: includes/class-settings-manager.php:80
+msgid "Thanks! Your message has been received. We will get back to you soon."
+msgstr ""
+
+#: includes/class-utils.php:50
+msgid "no messages yet"
+msgstr ""
+
+#: includes/class-utils.php:56
+msgid "just now"
+msgstr ""
+
+#: includes/class-utils.php:60
+msgid "%s ago"
+msgstr ""
+
+#: includes/class-utils.php:101
+msgid "Unknown"
+msgstr ""
+
+#: templates/widget-shell.php:11
+msgid "Live chat"
+msgstr ""
+
+#: templates/widget-shell.php:59
+msgid "Emoji"
+msgstr ""
+
+#: templates/widget-shell.php:73
+msgid "Open live chat"
+msgstr ""
+
+#: includes/class-frontend-widget.php:136
+msgid "Chat ended. Thanks for reaching out!"
+msgstr ""
+
+#: includes/class-frontend-widget.php:133
+#: templates/widget-shell.php:55
+msgid "End chat"
+msgstr ""
+
+#: includes/class-frontend-widget.php:134
+msgid "End this chat? Your conversation stays saved in your history — you can send a new message any time to reopen it."
+msgstr ""
+
+#: includes/class-frontend-widget.php:132
+#: templates/widget-shell.php:25
+#: templates/widget-shell.php:25
+msgid "Minimize chat"
+msgstr ""
+
+#: includes/class-frontend-widget.php:137
+msgid "New message from support"
+msgstr ""
+
+#: admin/views/inbox.php:265
+msgid "Sound: on"
+msgstr ""
+
+#: includes/class-frontend-widget.php:135
+#: templates/widget-shell.php:58
+msgid "This chat has been closed by our team. You can still see the history — send a message to reopen it."
+msgstr ""
+
+msgid "Let a known email address continue its previous chat"
+msgstr ""
+
+msgid "Security notice:"
+msgstr ""
+
+msgid "An email address is not a password. Enabling the option above lets anyone who knows a visitor's email address read that visitor's chat history. Leave it off unless your visitors are already authenticated elsewhere (for example an intranet)."
+msgstr ""
+
+#: admin/views/settings.php:106
+msgid "A chat ends when the visitor closes the browser. This is the safety net for idle sessions; use 0 to disable. History stays available to agents."
+msgstr ""
+
+#: admin/views/settings.php:96
+msgid "Agent display name in the chat"
+msgstr ""
+
+#: admin/views/inbox.php:241
+#: includes/class-admin-controller.php:160
+msgid "auto"
+msgstr ""
+
+#: admin/views/settings.php:26
+#: admin/views/settings.php:117
+msgid "Automated messages"
+msgstr ""
+
+#: admin/views/inbox.php:186
+msgid "Choose a chat on the left to read the history and reply. New messages arrive here automatically."
+msgstr ""
+
+#: includes/class-frontend-widget.php:140
+msgid "Close this chat? The conversation will end and your chat history will no longer be shown here. Our team keeps a copy for reference."
+msgstr ""
+
+#: includes/class-settings-manager.php:52
+msgid "Hi {user_name}, how can we help you today?"
+msgstr ""
+
+#: admin/views/settings.php:134
+msgid "Holding reply"
+msgstr ""
+
+#: admin/views/inbox.php:185
+msgid "Pick a conversation"
+msgstr ""
+
+#: admin/views/settings.php:118
+msgid "Placeholders: {user_name}, {user_email}, {site_name}, {ref}. Automated messages are attributed to the site, not to a staff member, and never count as unread for agents."
+msgstr ""
+
+#: admin/views/settings.php:131
+msgid "Send a holding reply after the visitor's first message"
+msgstr ""
+
+#: admin/views/settings.php:122
+msgid "Send a welcome message when a visitor starts a chat"
+msgstr ""
+
+#: admin/views/settings.php:104
+msgid "Session lifetime (hours)"
+msgstr ""
+
+#: admin/views/settings.php:101
+msgid "Shown next to each reply inside the conversation."
+msgstr ""
+
+#: includes/class-frontend-widget.php:139
+msgid "Support team"
+msgstr ""
+
+#: includes/class-settings-manager.php:54
+msgid "Thanks for reaching out! An agent will be with you shortly. Please wait while we connect you."
+msgstr ""
+
+#: includes/class-auto-messages.php:144
+msgid "there"
+msgstr ""
+
+#: includes/class-security.php:233
+msgid "Your chat session has ended. Please start a new chat."
+msgstr ""
